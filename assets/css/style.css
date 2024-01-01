@@ -1,0 +1,102 @@
+html {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%;
+}
+h1 {
+  padding-top: 8px;
+}
+
+footer {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   text-align: center; 
+   width: 99%;   
+}
+
+.content {
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: #EEE7DA;
+}
+
+.circle {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #EEE7DA;
+  overflow: hidden;
+}
+.circle.per-25 {
+ background-image: conic-gradient(#88AB8E 25%, #AFC8AD 0);
+}
+.circle.per-50 {
+  background-image: conic-gradient(#88AB8E 50%, #AFC8AD 0);
+}
+.circle.per-75 {
+  background-image: conic-gradient(#88AB8E 75%, #AFC8AD 0);
+}
+.circle.per-100 {
+  background-image: conic-gradient(#88AB8E 100%, #AFC8AD 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background: #EEE7DA;
+  color: #112A46;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.lang-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lext {
+  padding-left: 1%;
+}
+
+.langs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
