@@ -100,3 +100,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+table {
+  display: none; /* fix bottom NOIP.com shield */
+}
