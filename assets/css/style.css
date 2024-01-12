@@ -104,3 +104,7 @@ body {
 table {
   display: none; /* fix bottom NOIP.com shield */
 }
+
+center {
+  display: none;
+}
